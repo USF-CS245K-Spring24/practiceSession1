@@ -1,0 +1,8 @@
+Solution:
+T(1) = C1
+T(n) = T(n/2) + C
+
+f(n) = C
+n ^ (log_b (a)) = n^(log2(1))  = n^0 = C2;
+Case 2 applies since both functions are Theta(1).
+The answer is Theta(log n).
